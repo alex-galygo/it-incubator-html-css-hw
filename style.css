@@ -23,11 +23,6 @@ body {
     font-weight: normal;
 }
 
-.header {
-    background-color: #0A61F7;
-    padding: 14px 0;
-}
-
 .container {
     height: 100%;
     width: 100%;
@@ -51,6 +46,23 @@ body {
     line-height: 22px;
 }
 
+/* ====================== header ============ */
+
+.header {
+    background-color: #0A61F7;
+    padding: 14px 0;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+}
 .menu-link {
     color: #FFF;
     font-size: 12px;
